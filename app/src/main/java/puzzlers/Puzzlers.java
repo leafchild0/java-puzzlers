@@ -3,6 +3,7 @@ package puzzlers;
 import puzzlers.tasks.FindWordsPuzzle;
 import puzzlers.tasks.IsDivisibleByNumbers;
 import puzzlers.tasks.NextElemSameDigits;
+import puzzlers.tasks.SortByAmount;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -37,5 +38,8 @@ public class Puzzlers {
 
         System.out.println(IsDivisibleByNumbers.isDivisibleByNumbers(412));
         System.out.println(IsDivisibleByNumbers.isDivisibleByNumbers(143));
+
+        System.out.println(SortByAmount.sortByAccurence("AA BB CC DD BB"));
+        System.out.println(SortByAmount.sortByAccurence("AA BB CC DD BB AA AA AA"));
     }
 }
