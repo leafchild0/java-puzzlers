@@ -1,6 +1,7 @@
 package puzzlers;
 
 import puzzlers.tasks.FindWordsPuzzle;
+import puzzlers.tasks.IsDivisibleByNumbers;
 import puzzlers.tasks.NextElemSameDigits;
 
 import java.util.Arrays;
@@ -33,5 +34,8 @@ public class Puzzlers {
         NextElemSameDigits.findNextGreater(new int[]{1, 2, 3, 4});
         NextElemSameDigits.findNextGreater(new int[]{1, 2, 3, 2});
         NextElemSameDigits.findNextGreater(new int[]{6, 2, 1, 8, 7, 3});
+
+        System.out.println(IsDivisibleByNumbers.isDivisibleByNumbers(412));
+        System.out.println(IsDivisibleByNumbers.isDivisibleByNumbers(143));
     }
 }
