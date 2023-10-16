@@ -1,11 +1,7 @@
 package puzzlers;
 
-import puzzlers.tasks.FindWordsPuzzle;
-import puzzlers.tasks.IsDivisibleByNumbers;
-import puzzlers.tasks.NextElemSameDigits;
-import puzzlers.tasks.SortByAmount;
+import puzzlers.tasks.*;
 
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -41,5 +37,7 @@ public class Puzzlers {
 
         System.out.println(SortByAmount.sortByAccurence("AA BB CC DD BB"));
         System.out.println(SortByAmount.sortByAccurence("AA BB CC DD BB AA AA AA"));
+
+        System.out.println(ElevatorTime.timeForAllRequests(3, new int[]{4, 2, 1, 2, 4}));
     }
 }
