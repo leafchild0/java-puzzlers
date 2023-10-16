@@ -22,5 +22,5 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'puzzlers.App'
+    mainClass = 'puzzlers.Puzzlers'
 }
