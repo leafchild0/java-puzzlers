@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class SortByAmount {
 
     /**
-     * Get a string with values divided by a string, sort it by occurrences of same string
+     * Get a string with values divided by a space, sort it by occurrences of substrings
      * @param input - actual string, for example AA BB CC DD
      * @return list of values sorted
      */
