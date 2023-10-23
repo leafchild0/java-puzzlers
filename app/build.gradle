@@ -27,8 +27,3 @@ java {
 test {
     useJUnitPlatform()
 }
-
-application {
-    // Define the main class for the application.
-    mainClass = 'puzzlers.Puzzlers'
-}
