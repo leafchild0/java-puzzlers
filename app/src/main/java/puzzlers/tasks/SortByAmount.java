@@ -9,11 +9,11 @@ import java.util.stream.Collectors;
 public class SortByAmount {
 
     /**
-     * Get a string with values divided by a string, sort it by occurences of same string
+     * Get a string with values divided by a string, sort it by occurrences of same string
      * @param input - actual string, for example AA BB CC DD
      * @return list of values sorted
      */
-    public static List<String> sortByAccurence(String input) {
+    public static List<String> sortByOccurrence(String input) {
         var values = input.split(" ");
         var data = new HashMap<String, Integer>();
 
