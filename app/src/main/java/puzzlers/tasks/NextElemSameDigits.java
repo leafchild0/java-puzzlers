@@ -1,10 +1,8 @@
 package puzzlers.tasks;
 
-import java.util.Arrays;
-
 public class NextElemSameDigits {
     
-    public static void findNextGreater(int[] arr) {
+    public static int[] findNextGreater(int[] arr) {
 
         if (arr == null || arr.length == 0) {
             throw new IllegalArgumentException("The given array cannot be null or empty");
@@ -36,11 +34,8 @@ public class NextElemSameDigits {
             // Step 4: Sort in ascending order all the digits 
             // to the right side of the swapped 'len-1'
             reverse(arr, min + 1, len - 1);
-
-            // print the result
-            System.out.print("The next greater number is: ");
-            System.out.println(Arrays.toString(arr));
         }
+        return arr;
     }
 
     private static void reverse(int[] arr, int start, int end) {
