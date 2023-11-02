@@ -75,6 +75,8 @@ public final class Retry<T> implements Operation<T> {
                     //ignore
                 }
             }
-        } while (true);
+        } while (this.attempts.incrementAndGet() < this.maxAttempts);
+
+        return null;
     }
 }

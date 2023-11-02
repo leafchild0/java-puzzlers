@@ -5,7 +5,6 @@ package puzzlers.retry;
  *
  * @param <T> the return type
  */
-@FunctionalInterface
 public interface Operation<T> {
     /**
      * Performs some business operation, returning a value {@code T} if successful, otherwise throwing

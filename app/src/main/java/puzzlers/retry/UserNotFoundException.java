@@ -5,7 +5,9 @@ package puzzlers.retry;
  */
 public class UserNotFoundException extends OperationException {
 
-    public UserNotFoundException(String message) {
-        super(message);
+    public static final String NOT_FOUND = "User is not found";
+
+    public UserNotFoundException() {
+        super(NOT_FOUND);
     }
 }
