@@ -2,7 +2,6 @@ package puzzlers.tasks;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import puzzlers.tasks.LandingSystem;
 
 import java.time.LocalTime;
 
@@ -11,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class LandingSystemTest {
 
-    LandingSystem system = new LandingSystem();
+    private final LandingSystem system = new LandingSystem();
 
     @BeforeEach
     public void setUp() {

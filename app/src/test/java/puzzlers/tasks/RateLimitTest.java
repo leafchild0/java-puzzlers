@@ -1,7 +1,6 @@
 package puzzlers.tasks;
 
 import org.junit.jupiter.api.Test;
-import puzzlers.tasks.RateLimit;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;

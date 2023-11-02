@@ -1,7 +1,6 @@
 package puzzlers.tasks;
 
 import org.junit.jupiter.api.Test;
-import puzzlers.tasks.ShortestSafePath;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

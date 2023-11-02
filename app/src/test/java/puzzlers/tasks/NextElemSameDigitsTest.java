@@ -1,7 +1,6 @@
 package puzzlers.tasks;
 
 import org.junit.jupiter.api.Test;
-import puzzlers.tasks.NextElemSameDigits;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 

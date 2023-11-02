@@ -1,7 +1,6 @@
 package puzzlers.tasks;
 
 import org.junit.jupiter.api.Test;
-import puzzlers.tasks.FindWordsPuzzle;
 
 import java.util.Set;
 
@@ -9,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class FindWodPuzzleTest {
 
-    FindWordsPuzzle wordsPuzzle = new FindWordsPuzzle();
+    private final FindWordsPuzzle wordsPuzzle = new FindWordsPuzzle();
     private final char[][] puzzle = {
             {'F','Y','Y','H','N','R','D'},
             {'R','L','J','C','I','N','U'},
