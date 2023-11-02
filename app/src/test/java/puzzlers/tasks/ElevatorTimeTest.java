@@ -1,7 +1,6 @@
-package puzzlers;
+package puzzlers.tasks;
 
 import org.junit.jupiter.api.Test;
-import puzzlers.tasks.ElevatorTime;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

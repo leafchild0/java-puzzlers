@@ -1,5 +1,6 @@
-package puzzlers;
+package puzzlers.tasks;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
@@ -9,7 +10,7 @@ public class IsDivisibleByNumbers {
 
     @Test
     public void isDivisibleByNumbers() {
-        assertTrue(puzzlers.tasks.IsDivisibleByNumbers.isDivisibleByNumbers(412));
-        assertFalse(puzzlers.tasks.IsDivisibleByNumbers.isDivisibleByNumbers(143));
+        Assertions.assertTrue(isDivisibleByNumbers(412));
+        Assertions.assertFalse(isDivisibleByNumbers(143));
     }
 }
